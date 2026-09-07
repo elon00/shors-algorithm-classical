@@ -80,12 +80,16 @@ def find_period_quantum_simulation(
         candidates = find_period_from_continued_fraction(measurement, Q, N)
 
         for r_candidate in candidates:
-            if modular_exponentiate(a, r_candidate, N) == 1:
-                return r_candidate
+            if r_candidate > 0:
+                for d in range(1, r_candidate + 1):
+                    if r_candidate % d == 0 and modular_exponentiate(a, d, N) == 1:
+                        return d
 
             r_double = r_candidate * 2
             if r_double <= N and modular_exponentiate(a, r_double, N) == 1:
-                return r_double
+                for d in range(1, r_double + 1):
+                    if r_double % d == 0 and modular_exponentiate(a, d, N) == 1:
+                        return d
 
     return None
 
