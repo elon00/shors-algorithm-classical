@@ -1,0 +1,116 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 36,
+  "manifest": {
+    "package.json": {
+      "bytes": 976
+    },
+    "README.md": {
+      "bytes": 5895
+    },
+    "REALITY_MANIFEST.json": {
+      "bytes": 1740
+    },
+    "requirements.txt": {
+      "bytes": 13
+    },
+    "THE-CREATOR-GOVERNANCE.md": {
+      "bytes": 394
+    },
+    "URS_EVIDENCE_CERTIFICATE.json": {
+      "bytes": 11690
+    },
+    "examples\\01_gcd_foundation.py": {
+      "bytes": 654
+    },
+    "examples\\02_modular_arithmetic.py": {
+      "bytes": 1574
+    },
+    "examples\\03_continued_fractions.py": {
+      "bytes": 2551
+    },
+    "examples\\04_period_finding.py": {
+      "bytes": 2419
+    },
+    "examples\\05_full_shors_algorithm.py": {
+      "bytes": 1009
+    },
+    "examples\\06_quantum_simulation.py": {
+      "bytes": 1308
+    },
+    "examples\\07_visualizing_periodicity.py": {
+      "bytes": 1524
+    },
+    "notebooks\\shors_walkthrough.ipynb": {
+      "bytes": 3981
+    },
+    "scripts\\audit-crypto.mjs": {
+      "bytes": 7196
+    },
+    "scripts\\generate-urs-certificate.ts": {
+      "bytes": 4617
+    },
+    "scripts\\reality-universal.ts": {
+      "bytes": 16628
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "shors_classical\\continued_fractions.py": {
+      "bytes": 5924
+    },
+    "shors_classical\\gcd.py": {
+      "bytes": 2416
+    },
+    "shors_classical\\modular_arithmetic.py": {
+      "bytes": 3175
+    },
+    "shors_classical\\period_finding.py": {
+      "bytes": 3982
+    },
+    "shors_classical\\shor_classical.py": {
+      "bytes": 5487
+    },
+    "shors_classical\\__init__.py": {
+      "bytes": 707
+    },
+    "src\\types.ts": {
+      "bytes": 640
+    },
+    "tests\\conftest.py": {
+      "bytes": 95
+    },
+    "tests\\nist-pqc.test.mjs": {
+      "bytes": 4368
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    "tests\\test_continued_fractions.py": {
+      "bytes": 1983
+    },
+    "tests\\test_gcd.py": {
+      "bytes": 907
+    },
+    "tests\\test_modular_arithmetic.py": {
+      "bytes": 1229
+    },
+    "tests\\test_period_finding.py": {
+      "bytes": 1175
+    },
+    "tests\\test_shor_classical.py": {
+      "bytes": 1056
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    },
+    "src\\utils\\pqcCrypto.ts": {
+      "bytes": 7779
+    }
+  },
+  "timestamp": 1794037438
+}
